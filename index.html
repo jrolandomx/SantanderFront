@@ -1,60 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi pagina</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
 
 <body>
 
-<header class="header">
-  <!-- Logo con link a la página principal -->
-  <a href="./index.html" class="logo">
-    <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha"/>
-  </a>
-  <!-- Menú de navegación -->
-  <nav class="navbar">
-    <ul>
-      <li>Inicio</li>
-      <li>Perro</li>
-      <li>Gato</li>
-      <li>Peces</li>
-      <li>Info</li>
-    </ul>
-  </nav>
-  <!-- Contenedor de acciones de usuario -->
-  <div class="actions">
-    <a>Sign In</a>
-    <button>Start free trial</button>
-  </div>
-</header>
+  <header class="header">
+    <!-- Logo con link a la página principal -->
+    <a href="/" class="logo">
+      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha"/>
+    </a>
+    <!-- Menú de navegación -->
+    <nav class="navbar">
+      <ul>
+        <li class="menu-item">Platform</li>
+        <li class="menu-item">Pricing</li>
+        <li class="menu-item">Customers</li>
+        <li class="menu-item">Resources</li>
+        <li class="menu-item">About</li>
+      </ul>
+    </nav>
+    <!-- Contenedor de acciones de usuario -->
+    <div class="actions">
+      <a>Sign In</a>
+      <button>Start free trial</button>
+    </div>
+  </header>
+  
 
-    <h1>Mi titulo</h1>
-    <h2>Mi segundo titulo</h2>
-    <h3>Mi tercer titulo</h3>
-    <h4>mi cuarto titulo</h4>
-    <h5>mi quinto titulo</h5>
-    <p><B>Hi</B> hola </p>
 
-    
-    <center>
-        <img src="../matcha/img/capterra.png" />
-    </center>
+  <h1> Mi primer etiqueta </h1>
+  <h2> Mi etiqueta </h2>
+  <h3>Mi etiqueta</h3>
+  <h4>Mi etiqueta</h4>
+  <h5>Mi etiqueta</h5>
+  <h6>Mi etiqueta</h6>
 
-    <form action=''>
-        <input type="text" id="name" name="nombre" placeholder="Nombre"><br><br>
-        <input type="text" id="lastname" name="lastname" placeholder="Apellido"><br><br>
-        <input type="number" id="age" name="age" placeholder="Edad" min="05" max="60"><br><br>
-        <input type="email" id="email" name="email" placeholder="Correo"><br><br>
-        <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
-            
-        <button type="submit">
-            Apretar &rarr;
-          </button>
-    </form>
+  <p>
+    <b>Mi etiqueta</b> parrafo
+  </p>
+
+  <!-- <input type="text"><br> -->
+  <form>
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="fname" required><br><br>
+    <input type="text" id="lastname" name="lastname" placeholder="Apellido"><br><br>
+    <input type="number" id="age" name="age" placeholder="Edad" min="18" max="35"><br><br>
+    <input type="email" id="email" name="email" placeholder="Correo"><br><br>
+    <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
+    <button type="submit">Enviar</button>
+</form>
+
+<img alt="Logo de matcha" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" />
+
+
+</body>
 
 </html>

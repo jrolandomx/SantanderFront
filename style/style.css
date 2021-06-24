@@ -1,16 +1,25 @@
-main {
-  margin-top: 285px;
+body {
+  background-color: #f49e47;
+  background-image: url('https://pro2-bar-s3-cdn-cf.myportfolio.com/67cf45ca-338d-4fd0-943b-32d96162976a/b7b52d14-b827-4c3a-906f-3b94fa13f35f_rw_1920.png');
+}
+
+h1 {
+  color: #46484c;
   text-align: center;
 }
 
-.header {
-  margin: 10px 20px 0 20px ; 
-  font-size: 0;
-  line-height: 45%;
-  font-family: sans-serif;
+p {
+  color: #8b8b8bcc;
+  font-family: verdana;
+  font-size: 20px;
 }
 
-.secheader{
+button {
+  color: #fff;
+  background-color: #025157;
+}
+
+.fixed-header {
   position: fixed;
   background-color: white;
   top: 0;
@@ -18,19 +27,36 @@ main {
   right: 0;
 }
 
+.header {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 0;
+  height: 45px;
+  font-family: sans-serif;
+}
+
 .header > * {
   display: inline-block;
   font-size: 16px;
   vertical-align: middle;
-  height : 100%;
+  height: 100%;
   line-height: 45px;
 }
 
-.logo{
-  width: 100%;
+li {
+  display: inline;
 }
 
-.navbar{
+.logo {
+  width: 15%;
+}
+
+.logo > img {
+  height: 100%;
+}
+
+.navbar {
   width: 70%;
   text-align: center;
   color: #025157;
@@ -38,253 +64,78 @@ main {
 
 .menu-item {
   display: inline;
-  margin: 0 25px 0 25px;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 .actions {
-    width: 15%;
-    text-align: left;
-    font-size: 14px;
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+}
+
+.actions > * {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .actions a {
   color: #67b54b;
 }
 
-
-.actions > * {
-  margin: 0 10px 0 10px;
-}
-
 .actions button {
   color: white;
   background-color: #67b54b;
-  padding: 12px 14px 12px 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   border: 0;
   border-radius: 5px;
 }
 
-
-
-
-
-body{
-  background-color: #fffbf7;
-  /*background-image: url('https://image.freepik.com/vector-gratis/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.jpg');  */
+.promo {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
 }
 
-.secpromo {
-display: flex;
-width: 70%;
-margin: auto;
-margin: 100px auto;
-align-items: center;
-}
-
-.secpromo .publicidad {
-font-family: Helvetica;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: right;
-padding-top: 5%;
-}
-
-.secpromo .publicidad > h3 {
-font-family: "Alegreya", serif;
-font-size: 30px;
-color: #025157;
-}
-
-.secpromo .publicidad > p {
-font-size: 16px;
-color: #343434;
-line-height: 1.5;
-margin-bottom: 20px;
-
-}
-
-.secpromo .publicidad > form {
-display: flex;
-
-
-}
-
-.secpromo .publicidad > form p {
-color: #025157;
-margin-right: 10px;
-
-}
-
-.secpromo .publicidad .email{
-border: 1px solid #b6b6b6;
-padding: 6px 20px;
-width: 60%;
-max-width: 250px;
-}
-
-.secpromo .publicidad > form button {
-  color: white;
-  background-color: #025157;
-  padding: 12px 10px 12px 14px;
-  border: 0;
-  border-radius: 5px;
-}
-
-.secpromo .publicidad  img {
-width: 120px;
-margin-top: 10px;
-}
-
-
-.secpromo .artvideo {
+.explanatory-video {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-right: 5%;
 }
 
-.secpromo .artvideo img {
-  width: 150px;
+.explanatory-video img {
+  width: 120px;
   margin-top: 10px;
 }
 
-.secgrowing {
-  background-color: #a1d683;
-  padding: 5% 15%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.publish {
+  /* container styles if any */
+  margin-left: 20px;
 }
 
-.success-stories .artgrowing {
-  flex: 2;
-  padding-right: 100px;
-}
-
-.secgrowing .artgrowing h2 {
+.publish h3 {
   font-family: "Alegreya", serif;
-  font-size: 51px;
+  font-size: 40px;
+  line-height: 48px;
   color: #025157;
 }
 
-.secgrowing .artgrowing p {
-  color: #343434;
-  font-size: 20px;
-  margin-bottom: 1rem;
-}
-
-.secgrowing .artgrowing button {
+.publish > p {
   font-size: 16px;
-  padding: 12px 12px 6px 12px;
-  border-radius: 8px;
-  height: 45px;
-  font-weight: 600;
-  margin-left: 0;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
-.secgrowing .artgrowing img {
-  width: 80%;
-  max-width: 80%;
-  margin-left : 0;
-}
-
-.secgrowing .arteverly {
-  flex: 1;
-}
-
-.secgrowing .arteverly {
-  margin-left: 10%;
-  float : right;
-  max-width: 550px;
-  width: 80%;
-  background-color: #fff;
-  border-radius: 10px;
-
-}
-
-.secgrowing .arteverly .diveverly .img {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  width: 80%;
-  max-width: 80%;
-
-}
-
-.secgrowing .arteverly .diveverly .figure {
-  margin-top: 0;
-  margin-right: 10%;
-}
-
-.secgrowing .arteverly .diveverly {
-  position: relative;
-  }
-
-.secgrowing .arteverly .divlogo {
-  position: absolute;
-  bottom: -20px;
-  right: 20px;
-  width: 100px;
-  height: 100px;
-  background-color: #f9da73;
-  border-radius: 50%;
+.publish > form {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.secgrowing .arteverly .divlogo img {
-  max-width: 75%;
+.publish > form p {
+  color: #025157;
+  margin-right: 18px;
 }
-
-  
-  .secgrowing .arteverly .divbody,
-  .secgrowing .arteverly .divfooter {
-    padding: 25px;
-  }
-
-  .secgrowing .arteverly .divbody h4 {
-    color: #025157;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 20px;
-    margin-bottom: 12px;
-  }
-
-  .secgrowing .arteverly .divbody h3 {
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 20px;
-  }
-  
-  .secgrowing .arteverly .divbody .divresults {
-    display: flex;
-    align-items: center;
-    color: #828282;
-  }
-
-  .secgrowing .arteverly .divbody .divresults img {
-    width: 26px;
-    margin-right: 20px;
-  }
-
-  .secgrowing .arteverly .divbody .divresults p {
-    margin-top: 0;
-  }
-
-  .secgrowing .arteverly .divbody .divfooter {
-    margin-bottom: 20px;
-    background-color: unset;
-    border-top: unset;
-  }
-  
-  .secgrowing .arteverly .divbody .divfooter button {
-    display: block;
-    margin-left: 0;
-    border-radius: 5px;
-    font-size: 13;
-    font-weight: 600;
-    padding: 12px 20px;
-    width: 100%;
-  }
